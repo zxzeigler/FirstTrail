@@ -1,0 +1,12 @@
+﻿<link href="/css/Components/SearchBarStyle.css" rel="stylesheet" />
+
+<h3 class="SearchComponentLayout">Search Bar Component</h3>
+
+<div class="SearchComponentLayout">
+    <input class="SearchBar" type="text" @bind-value="SearchText"
+           @bind-value:event="oninput" placeholder="Search by title" />
+</div>
+
+@code {
+    private string SearchText;
+}

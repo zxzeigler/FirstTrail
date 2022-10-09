@@ -1,0 +1,12 @@
+﻿.SearchComponentLayout{
+    align-items: center;
+}
+
+.SearchBar {
+    color: rgb(20, 200, 220);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration-color: blue;
+    outline-color: teal;
+    border-block-color: teal;
+}
